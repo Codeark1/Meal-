@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  font-family: cursive;
+  background-image: url(./vegetables-set-left-black-slate.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#text-container {
+  /* background: rgb(91, 159, 113);
+  background: linear-gradient(
+    111deg,
+    rgba(91, 159, 113, 1) 2%,
+    rgba(84, 191, 179, 1) 25%,
+    rgba(84, 108, 191, 1) 92%
+  ); */
+  margin: 0 auto;
+  max-width: 1300px;
+}
+h2{
+  font-size: 3rem;
+  color: red;
+}
+#text {
+   padding: 1rem; 
+  text-align: center;
+    /* line-height: 3rem; */
+} 
+#search-field {
+  display: flex;
+  justify-content: center;
+}
+.meal-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+.img {
+   width: 100%; 
+   border-radius: 10px;
+}
+input[type=text]{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+.pop{
+  background-color:brown;
+}
